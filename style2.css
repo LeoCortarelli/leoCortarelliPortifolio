@@ -355,7 +355,9 @@ footer .line-footer a {
 
 /* CLASSES */
     .flex {
+        display: flex;
         flex-direction: column;
+        align-items: stretch;
     }
 
     .topo-do-site .flex {
@@ -401,6 +403,14 @@ footer .line-footer a {
     section.ferramentas {
         padding: 40px 8%;
     }    
+
+    .ferramentas-box{
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        height: 300px;
+        overflow: auto;
+    }
 
 /* SOBRE */    
     section.sobre {
